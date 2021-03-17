@@ -1,0 +1,28 @@
+{
+  "name": "vmx-request-elm",
+  "version": "1.0.0",
+  "description": "HTTP Request UI Module Extension",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/kmtong/vmx-request-elm"
+  },
+  "keywords": [
+    "plugin",
+    "module"
+  ],
+  "author": "kmtong@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "element-ui": "^2.12.0",
+    "vmx-request": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^4.0.2"
+  }
+}
